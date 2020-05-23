@@ -1,0 +1,146 @@
+*{
+	font-family: "微軟正黑體";
+}
+body{
+	margin: 0px;
+	padding:0px;
+	background-color: #E6E1D6;
+}
+a{
+	text-decoration:none;
+}
+li{
+	list-style-type: none;
+}
+.menu{
+	color: #ffffff;
+	padding-left:5%;
+	font-size: 150%;
+}
+.menu:hover{
+			font-size: 170%;
+}
+.menutit{
+	position:absolute;
+	top: 8%;
+	left: 35%;
+	width: 65%;
+	font-weight:bold;
+}
+h2{
+	text-align: center;
+}
+.top{
+	background-color: #403D39;
+}
+.topfont{
+
+}
+.logo{
+	
+	width: 20%;
+	
+}
+.basic{
+position: relative;
+left: 20%;
+border-radius: 70px;
+
+	background-color: #F3EFE4;
+}
+.information{
+	background-color: #F3EFE4;
+	border-radius: 70px;
+}
+.information2{
+	background-color: #FFFCF2;
+	border-radius: 70px;
+}
+.information3{
+	background-color: #868179;
+	border-radius: 70px;
+}
+.schtxt{
+	color: #302E2B;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	padding-right: 3%;
+	padding-left: 13%;
+	font-size: 120%;
+}
+.icon1{
+	width: 9%;
+	padding-top: 1%;
+	padding-right: 3%;	
+	padding-left: 11%;
+	padding-bottom: 1%;
+}
+.icon2{
+	width: 9%;
+	padding-left: 27%;
+	padding-bottom: 1%;
+}
+.icon3{
+	width: 9%;
+	padding-left: 18%;
+	padding-right: 2%;
+	padding-bottom: 2%;
+	vertical-align:middle;
+}
+.icon4{
+	width: 9%;
+	padding-left: 20%;
+	padding-right: 3%;
+	padding-bottom: 2%;
+	vertical-align:middle;
+}
+.tartxt{
+	font-size: 120%;
+
+}
+.worktxt{
+	color: #302E2B;
+	padding-top: 1%;
+	padding-left:29.5%;
+	font-size: 120%;
+}
+.img{
+	border-radius: 70px;
+	width: 10%;
+	margin: 10px 50px 15px 50px;
+	transition-property: width,height;
+	transition-duration: 1s;
+}
+.img:hover{
+	width: 30%;
+}
+.life1{
+	padding-top: 1%;
+	padding-bottom: 2%;
+	padding-right: 3%;
+	position: relative;
+	left: 17%;
+	transition-property: width,height;
+	transition-duration: 1s;
+}
+.life1:hover{
+	width: 30%;
+}
+footer{
+	color: #FFFCF2;
+	float: left;
+	width: 100%;
+	bottom: 0px;
+	background-color:#403D39;
+	margin-top: 10%;
+	text-align: center;
+}
+.uppp{								/*回到最上面*/
+position: fixed;
+right:15px;
+bottom:35px;
+width: 60px;
+}
+.uppp:hover{						/*回到最上面特效*/
+width: 70px;
+}
