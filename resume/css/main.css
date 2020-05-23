@@ -1,0 +1,230 @@
+*{
+	font-family: "微軟正黑體";
+}
+body{
+	background-color: #CFEEEE;
+}
+.top{
+	width: 1200px;
+	height: 325px;
+	background-color: #3D5A80;
+	margin:0 auto;
+	margin-top: 50px;
+}
+.mi{
+	width: 200px;
+	border-radius: 100%;	
+	float: left;
+	margin-top: 62px;
+	margin-left: 10px;
+}
+.toptxt{
+	font-family: "Century";
+	font-size: 50px;
+	text-align: left;
+
+	padding-top:50px;
+	color: #ffffff;
+
+}
+.toptxt p{
+	text-align: left;
+	font-size: 16px;
+	font-family:"微軟正黑體";
+}
+.XIV{
+	margin-top: 140px; 
+	color: #ffffff;
+	margin-bottom: 70px;
+}
+.icon{
+	width: 70px;
+	padding-left: 25px;
+	margin-top:-10px;
+	-webkit-filter:invert(1);
+}
+.icon:hover{
+	-webkit-filter:invert(0); 
+}
+.diva{
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #3e597c;
+	text-decoration:none;
+	border-radius: 15%;
+	padding-top:2%;
+	padding-left:2%;
+	padding-right:2%;
+	padding-bottom:2%;
+	margin-left: 30px;
+	margin-bottom: -10%;
+}
+.diva:hover{
+	color: #ffffff;
+	background-color: #476792;
+	text-decoration:none;
+	border-radius: 15%;
+}
+.webtxt{
+	padding-left: 25px;
+	margin-top:-35px;
+}
+.mid{
+	width: 1200px;
+	height: 2000px;
+	background-color: #FFFFFF;
+	margin:0 auto;
+	
+}
+.txt{
+	font-family: "Calisto MT";
+	font-weight: bold;
+	font-size: 40px;
+}
+#skills{								/*skills part*/
+width:34.5%;
+margin-top: 0.5%;
+padding:0.1% 2% 1% 3%;
+position: absolute;
+left:50.5%;
+float:right;
+}
+.skillbox{								/*skills內文字體*/
+box-sizing: border-box;
+flex-direction: row;
+padding: 1.4%;
+color:#3D5A80;
+font-weight: bold;
+font-size: 100%;
+}
+.skillbox:hover{
+color: #387ad2;	
+}
+.skill{									/*barbox底色*/
+background-color: #3D5A80;
+padding: 1.1%;
+box-sizing: border-box;
+color:white;
+border-radius: 10px;
+}
+.skill_level{							/*barbox跑動部分*/
+background-color: #5ac5ee;
+border-radius: 5px;
+text-align: right;
+}
+.c{
+animation-name: c;
+animation-duration: 2s;
+}
+.java{
+animation-name: java;
+animation-duration: 2s;
+}
+.html{
+animation-name: html;
+animation-duration: 2s;
+}
+.ios{
+animation-name: ios;
+animation-duration: 2s;
+}
+.python{
+animation-name: python;
+animation-duration: 2s;
+}
+@keyframes c{
+0%{width: 0%}
+100%{width: 60%}
+}
+@keyframes java{
+0%{width: 0%}
+100%{width: 65%}
+}
+@keyframes html{
+0%{width: 0%}
+100%{width: 65%}
+}
+@keyframes ios{
+0%{width: 0%}
+100%{width: 70%}
+}
+@keyframes python{
+0%{width: 0%}
+100%{width: 70%}
+}
+/*work*/
+.wicon{
+	width: 30%;
+	vertical-align:middle;
+	transition : 0.5s;
+	opacity : 0.3;
+	
+}
+.wicon:hover{
+	width: 30%;
+	vertical-align:middle;
+	transition : 0.5s;
+	opacity : 0.3;
+	opacity : 1;
+}
+.wtxt{
+	display:inline-block;
+	font-weight: bold;
+	margin-left: 30px;
+	font-size: 20px;
+}
+.se-p{
+	background-color: #C5EBED;
+	padding: 10px 10px 10px 10px ;
+	border-radius: 10px;
+}
+.se-1{
+	width: 70%;
+	overflow: hidden;
+	margin-left: 15%;
+	transform: scale(1,1);
+	transition: all 0.5s ease-out;
+}
+.se-1:hover{
+	box-shadow : 10px 10px 5px #012537;
+}
+.se-2{
+	width: 70%;
+	overflow: hidden;
+	margin-left: 15%;
+	transform: scale(1,1);
+	transition: all 0.5s ease-out;
+}
+.se-2:hover{
+	box-shadow : 10px 10px 5px #012537;
+}
+.webtxt{
+	padding-left: 0px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+}
+.webimg-1{
+	width: 45%;
+	margin:50px 10px 10px 20px;
+	transition : 0.5s;
+	vertical-align:middle;
+}
+.webimg-1:hover{
+	border-radius : 8%;
+	animation : swing 1s 1;
+}
+.webtxt{
+	display:inline-block;
+	font-weight: bold;
+	margin-left: 45px;
+	font-size: 18px;
+	text-align: left;
+}
+@keyframes  swing{
+		15% { transform:  translateX(5px); }
+		40% { transform:  translateX(-5px); }
+		65% { transform:  translateX(2px); }
+		85% { transform:  translateX(-2px); }
+		100% { transform:  translateX(0px); }
+}
