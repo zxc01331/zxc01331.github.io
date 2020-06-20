@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Lily+Script+One);
+.form {
+    margin:5% auto 90px auto;
+    padding:30px;
+    width:600px;
+    height:auto;
+    overflow:hidden;
+    background:white;
+    border-radius:10px;
+    box-shadow: 0px 1px 3px 1px #cccccc;
+}
+.form input,.form select{
+    float:left;
+}
+.form input ,.form select {
+	border:1px solid #bbb;
+    border-radius:5px;
+    height:30px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-right: 5px;
+}
+.form input[type="text"] ,.form input[type="number"]{
+    outline:none;
+    border:1px solid #bbb;
+    border-radius:5px;
+    height:30px;
+    display:inline-block;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    font-size: 18px;
+    line-height: 20px;
+}
+input[type=submit] {
+
+    background:#999;
+    border:none;
+    color:white;
+    margin-right:30px;
+}
+th{
+    width: 60px;
+    height: 45px;	
+}
+.button{
+	padding: 13px 30px 33px 30px;
+}
+.button2{
+	padding: 13px 30px 33px 30px;
+}
+h1{
+	font-weight: bolder;
+}

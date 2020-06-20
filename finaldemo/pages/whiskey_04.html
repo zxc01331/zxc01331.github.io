@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>慕赫 12年小女巫</title>
+	<link rel="stylesheet" href="">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="../assets/images/icon.ico" type="image/x-icon" / ><!--icon img-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<style type="text/css" media="screen">
+		@import url("../assets/CSS/index.css");
+		@import url("../assets/css/goods.css");
+		@import url("../assets/CSS/login.css");
+	</style>
+</head>
+<body>
+	<header id="header" class="">
+	<div class="menu-b">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../assets/images/logo.png" class="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="../index.htmlnavbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent"><!--header start-->
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white menu-txt" href="whiskey_index.html">威士忌</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white menu-txt" href="wine_index.html">葡萄酒</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white menu-txt" href="Sorghum_index.html">高粱酒</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white menu-txt" href="beer_index.html">啤酒</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white menu-txt" href="aboutus.html">關於我們</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white menu-txt" href="only_member.html">會員專區</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="lib" type="submit">Search</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+          <li>
+            <img src="../assets/images/login.png" class="img" onclick="showDialog()">
+          </li>
+          <li>
+            <a href="shopping_car.html" title=""><img src="../assets/images/shoppingcar.png" class="img"></a><!--header end-->
+          </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+		<script> 
+            function showDialog(){
+                var whitebg = document.getElementById("white-background");
+                var dlg = document.getElementById("dlgbox");
+                whitebg.style.display = "block";
+                dlg.style.display = "block";
+                var winWidth = window.innerWidth;
+                var winHeight = window.innerHeight;
+                dlg.style.left = (winWidth/2) - 480/2 + "px";
+                dlg.style.top = "150px";
+            }
+            function closeDialog(){
+            	var whitebg = document.getElementById("white-background");
+            	whitebg.style.display = "none";
+            	var dlg = document.getElementById("dlgbox");
+            	dlg.style.display="none";
+            }
+        </script>
+
+        <div id="white-background"> <!--登入-->
+        </div>
+        <div id="dlgbox">
+            <div id="dlg-header">
+                登入
+                <h3 onclick="closeDialog()" title="關閉視窗" class="close">×</h3>
+            </div>
+            <div id="dlg-body"><br/>
+              <form action="" method="post" accept-charset="utf-8">
+                帳號：<input type="text" name="id_number" value="" placeholder=""> <br/><br/>
+                密碼：<input type="password" name="password" value="" placeholder=""><br/><br/>
+            </div>
+            <div id="dlg-footer">
+                <input type="submit" name="登入" value="登入">
+                <a href="sign_up.html" title=""><input type="button" name="註冊" value="註冊"></a>
+              </form>
+            </div>
+        </div><!--登入end-->
+	</header><br/><br/>
+	<div><!--產品介紹-->
+  <div class="mid"><!--產品介紹-->
+    <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <img src="../assets/images/whiskey_04.png" class="g-whi-4">
+      </div>
+      <div class="col-md-7">
+        <p class="g-t1">Mortlach 12 Years Wee Witchie</p>
+        <p class="g-t2">慕赫&nbsp;12年小女巫</p>
+        <p class="g-t3">750 ml&emsp;|&emsp;43.4%<br>
+        慕赫&nbsp;大麥威士忌</p>
+        <hr>
+        <font class="g-price">$1,480</font>
+        <font class="g-reserve">庫存：99</font>
+        <div class="g-intro">
+          慕赫2.81的6座蒸餾器中，最小型暱稱為「小女巫」的蒸餾器，是造就慕赫醇厚酒液的最大功臣，讓12年單一麥芽威士忌保留渾厚酒體與豐富層次，並添加些許如肉脂般的鮮甜風味，是全系列中經典款，可作為初次嘗試慕赫的首款商品。
+        </div>
+        <div>
+          <form action="" method="post" accept-charset="utf-8">
+          <p class="g-quantity">數量：<input type="number" value="0" min="0" class="g-quantity2">
+            <input type="submit" name="" value="加入購物車" class="g-button"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-detail">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="p">DETAILS</div>
+          <div class="g-intro2">產品詳情</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="g-i1">
+            類型
+            <div class="g-i2">
+              威士忌
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="g-i1">
+            分類
+            <div class="g-i2">
+              調和威士忌
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="g-i1">
+            國家
+            <div class="g-i2">
+              Scotland 蘇格蘭
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="g-i1">
+            品牌/酒莊
+            <div class="g-i2">
+              Mortlach 12 慕赫
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="g-i1-1">
+            酒精度
+            <div class="g-i2">
+              43.4%
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="g-i1-1">
+            容量
+            <div class="g-i2">
+              750ml
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="g-i1-1">
+            規格
+            <div class="g-i2">
+              瓶
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="p-2-1">CUSTOMER&nbsp;fEEDBACK</div>
+          <div class="g-intro3">顧客回饋</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-5">
+          <img src="../assets/images/feedback.png" class="g-c-img">
+        </div>
+        <div class="col-md-7">
+          <div class="g-c-txt">
+            <form action="" method="post" accept-charset="utf-8">
+              <div>主旨：<input type="text" name="" value="" placeholder="" class="main-txt">
+              </div>
+              <br>
+              <div class="rating">
+                        <input type="radio" id="star5" name="rating" value="5" hidden/>
+                        <label for="star5"></label>
+                        <input type="radio" id="star4" name="rating" value="4" hidden/>
+                        <label for="star4"></label>
+                        <input type="radio" id="star3" name="rating" value="3" hidden/>
+                        <label for="star3"></label>
+                        <input type="radio" id="star2" name="rating" value="2" hidden/>
+                        <label for="star2"></label>
+                        <input type="radio" id="star1" name="rating" value="1" hidden/>
+                        <label for="star1"></label>  
+                        </div>
+              <div>內容：</div><textarea name=""></textarea>
+                        <div>
+              <input type="submit" name="" value="提交" class="lib-2">
+              <input type="reset" name="" value="重填" class="lib-3">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container"><!--觀看留言-->
+      <div class="messenge">
+        <div class="messenge2">
+          <div class="row">
+            <div class="col">
+              zxc****56
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              爛東西
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              ★
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              裡面有木屑，商品很爛，比夜市的還難喝，與賣家描述的完全一致，非常不滿意,真的很難喝，完全超出期望，發貨速度非常慢，包裝不仔細，只差沒破掉，物流公司服務態度很差，運送速度又慢，垃圾。
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col">
+              2020-05-29&emsp;19：25
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!--觀看留言END-->
+  </div>
+  </div>
+				
+
+<div class="war"><!--警告標語始-->
+      <h1 align="center" >
+        <img src="../assets/images/noallow.png" class="warimg">
+        禁止酒駕&emsp;&emsp;酒後不開車&emsp;&emsp;安全有保障
+        <img src="../assets/images/noallow.png" class="warimg">
+      </h1> 
+    </div><!--警告標語終-->
+    
+    <!--footer start-->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="../assets/images/logo2.png" class="f-logo">
+            <div class="f-p">
+              King Wine Cellar在2020年正式設立網路平台，並於2020年並不會在台北陸續成立銷售門市，提供酒類與相關產品資訊和透明化的價格，不以產品來歷可靠且品質保證作為經營宗旨。
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div>
+              <div class="f-tit">
+              產品類別
+            </div>
+            <div>
+              <div class="f-txt">
+              <a href="  whiskey_index.html" class="f-a">威士忌</a>
+            </div>
+            <div class="f-txt">
+              <a href="  wine_index.html" class="f-a">葡萄酒</a>
+            </div>
+            <div class="f-txt">
+              <a href="  Sorghum_index.html" class="f-a">高粱酒</a>
+            </div>
+            <div class="f-txt">
+              <a href="  beer_index.html" class="f-a">啤酒</a>
+            </div>
+            <div class="f-txt">
+              <a href="  aboutus.html" class="f-a">關於我們</a>
+            </div>
+            <div class="f-txt">
+              <a href="only_member.html" class="f-a">會員專區</a>
+            </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="f-tit">
+              聯絡我們
+              <div class="pre">
+                 地址：桃園市中壢區中北路200號<br>
+                 電話：03-4510000<br>
+                 傳真：03-4311234<br>
+                 工廠地址：台北市松山區敦化北路340-9號<br>
+                 金門縣金城鎮北門里民生路21號<br>    
+                </div>
+            </div>
+                <div class="f-icon">
+                  <a href="https://www.facebook.com/"><img src="../assets/images/facebook2.png" class="d-icon"></a>
+                  <a href="https://www.instagram.com/"><img src="../assets/images/instagram2.png" class="d-icon2"></a>
+                  <a href="mailto:KingWineCellar@gmail.com"><img src="../assets/images/mail2.png" class="d-icon3"></a>
+                </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="people">
+            本網頁造訪人次：000001
+            </div>
+      </div>
+          </div> 
+        </div>
+      </div>
+      <br><br><br><br>
+    </footer><!--footer end-->		
+</body>
+</html>	
+</body>
+</html>

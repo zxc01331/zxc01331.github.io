@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>留言板管理</title>
+	<link rel="stylesheet" href="">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="../assets/images/icon.ico" type="image/x-icon" / ><!--icon img-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/jquery-twzipcode@1.7.14/jquery.twzipcode.min.js"></script>
+    <style type="text/css" media="screen">
+		  @import url("../assets/CSS/index.css");
+		  @import url("../assets/css/goods.css");
+		  @import url("../assets/CSS/login.css");
+
+	</style>
+  <script> 
+            function showDialog(){
+                var whitebg = document.getElementById("white-background");
+                var dlg = document.getElementById("dlgbox");
+                whitebg.style.display = "block";
+                dlg.style.display = "block";
+                var winWidth = window.innerWidth;
+                var winHeight = window.innerHeight;
+                dlg.style.left = (winWidth/2) - 480/2 + "px";
+                dlg.style.top = "150px";
+            }
+            function closeDialog(){
+              var whitebg = document.getElementById("white-background");
+              whitebg.style.display = "none";
+              var dlg = document.getElementById("dlgbox");
+              dlg.style.display="none";
+            }
+        </script>
+</head>
+<body>
+  <header id="header" class="">
+    <div class="menu-b">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="mag_index.html">
+            <img src="../assets/images/logo.png" class="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="../index.htmlnavbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent"><!--header start-->
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="mag_goods.html">商品管理</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="member_mag.html">會員管理</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="mag_comment.html">留言板管理</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="mag_order.html">訂單查詢</a>
+              </li>
+            </ul>
+            <li class="nav-item text-white nav-link">
+               你好！管理員：test!
+            </li>
+            <input type="submit" name="" value="登出" class="g-button">
+        </nav>
+  </div>
+  </header><!-- /header -->
+  <br/><br/><br/><br/>
+  <p class="g-t2" align="center">留言板管理</p><br/><hr>
+  <div class="mid">
+      <table align="center" border="1">
+          <tr>
+            <td width="30px">編碼</td>
+            <td width="100px">留言人帳號</td>
+            <td width="100px">評論商品</td>
+            <td width="100px">時間</td>
+            <td width="80px">主旨</td>
+            <td width="30px">評分</td>
+            <td width="150px">內容</td>
+            <td width="10px">異動</td>
+          </tr>
+          <tr>
+            <td>001</td>
+            <td>zxc****56</td>
+            <td>玉泉極品台灣之美紅葡萄酒</td>
+            <td>2020-05-29 19：25</td>
+            <td>爛東西</td>
+            <td>1</td>
+            <td>裡面有木屑，商品很爛，比夜市的還難喝，與賣家描述的完全一致，非常不滿意,真的很難喝，完全超出期望，發貨速度非常慢，包裝不仔細，只差沒破掉，物流公司服務態度很差，運送速度又慢，垃圾。</td>
+            <td><form action="" method="post" accept-charset="utf-8"><input type="submit" name="" value="刪除"></form>
+          </tr>
+      </table>
+      </body>
+</html>

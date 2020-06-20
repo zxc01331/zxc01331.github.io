@@ -1,0 +1,321 @@
+body{
+	font-weight: 300;
+}
+.img{
+	width: 40px;
+	height: 40px;
+	-webkit-filter:invert(1);
+}
+.li{
+	font-size: 36px;
+	list-style-type: none;
+}
+.pre{
+	color: #B6924E;
+	margin-top: 30px;
+}
+.cotent{
+	height: auto;
+	margin-bottom: 5%;
+}
+.goods_images{
+	width: 75%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.g-whi-2{
+	width: 75%;
+	margin-top: 30px;
+	margin-bottom: 56px;
+}
+.g-whi-3{
+	width: 90%;
+	margin-top: 50px;
+	margin-bottom: 101px;
+}
+.g-whi-4{
+	width: 45%;
+	margin-top: 30px;
+	margin-left: 135px;
+	margin-bottom: 81px;
+}
+.g-w-1{
+	width: 28%;
+	margin-top: 40px;
+	margin-left: 115px;
+	margin-bottom: 47px;
+}
+.g-w-2{
+	width: 30%;
+	margin-top: 40px;
+	margin-left: 125px;
+	margin-bottom: 70px;
+}
+.g-w-3{
+	width: 31%;
+	margin-top: 40px;
+	margin-left: 127px;
+	margin-bottom: 65px;
+}
+.g-w-4{
+	width: 83%;
+	margin-top: 20px;
+	margin-bottom: 44px;
+}
+.g-w-6{
+	width: 75%;
+    margin-top: 30px;
+    margin-bottom: 46px;
+    margin-left: 60px;
+}
+.g-w-5{
+	width: 106%;
+	margin-top: 60px;
+	margin-bottom: 44px;
+}
+.g-s-1{
+	width: 80%;
+	margin-top: 95px;
+	margin-bottom: 136px;
+}
+.g-s-2{
+	width: 60%;
+	margin-top: 55px;
+	margin-left: 60px;
+	margin-bottom: 64px;
+}
+.g-s-3{
+	width: 85%;
+	margin-top: 60px;
+	margin-bottom: 146px;
+}
+.g-s-4{
+	width: 90%;
+	margin-top: 95px;
+	margin-bottom: 183px;
+}
+.g-s-5{
+	width: 30%;
+	margin-top: 61px;
+	margin-left: 110px;
+	margin-bottom: 98px;
+}
+.g-s-6{
+	width: 109%;
+	margin-top: 61px;
+	margin-bottom: 30px;
+}
+.g-b-1{
+	width: 90%;
+	margin-top: 65px;
+	margin-bottom: 165px;
+}
+.g-b-2{
+	width: 40%;
+	margin-top: 110px;
+	margin-left: 90px;
+	margin-bottom: 197px;
+}
+.g-b-3{
+	width: 50%;
+	margin-top: 110px;
+	margin-left: 90px;
+	margin-bottom: 178px;
+}
+.g-b-4{
+	width: 150%;
+	margin-top: 65px;
+	margin-left: -65px;
+	margin-bottom: 83px;
+}
+.g-t1{
+	font-family: "Lucida Fax";
+	margin-top: 30px;
+	margin-left: 30px;
+	font-weight: 700;
+}
+.g-t2{
+	margin-left: 30px;
+	font-size: 40px;
+	font-weight: 500;
+}
+.g-t3{
+	margin-left: 30px;
+	margin-top: 30px;
+	font-size: 13px;
+	color: #a9a9a9;
+	margin-bottom: 25px;
+}
+.g-price{
+	margin-left: 30px;
+	margin-top: 30px;
+	font-size: 20px;
+	color: #000;
+}
+.g-reserve{
+	margin-left: 440px;
+	margin-top: 30px;
+	font-size: 20px;
+	color: #000;
+}
+.g-quantity{
+	margin-top: 60px;
+	margin-left: 30px;
+	font-size: 20px;
+	color: #000;
+}
+.g-quantity2{
+	width:10%;
+}
+.g-button{
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	background-color: #63182b;
+	border: 0px;
+	color: #fff;
+	font-size: 16px;
+}
+hr{
+	margin-left: 30px;
+	color: #a9a9a9;
+}
+.g-intro{
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-right: 25px;
+	color: #000000;
+}
+.g-detail{
+	background-color: #ffffff;
+	width: 1200px;
+	height: 400px;
+	margin:0 auto;
+	margin-top: 10px;
+	box-shadow:0px 1px 3px 1px #cccccc;
+}
+.g-detail5{
+	background-color: #ffffff;
+	width: 1200px;
+	height: 400px;
+	margin:0 auto;
+	margin-top: 64px;
+	box-shadow:0px 1px 3px 1px #cccccc;
+}
+.p{
+	font-family: "Lucida Fax";
+	margin-top: 30px;
+	text-align: center;
+	font-size: 12px;
+}
+.g-intro2{
+	text-align: center;
+	font-size: 35px;
+	font-weight: 500;
+}
+.g-intro3{
+	text-align: center;
+	font-size: 35px;
+	font-weight: 500;
+	margin-bottom: 50px;
+}
+.g-i1{
+	margin-top: 50px;
+	color: #808080;
+}
+.g-i1-1{
+	margin-top: 65px;
+	color: #808080;
+}
+.g-i2{
+	color: #000000;
+}
+.p-2-1{
+	font-family: "Lucida Fax";
+	padding: 0px 0px 0px 0px;
+	margin-top: 120px;
+	text-align: center;
+	font-size: 12px;
+}
+.g-c-img{
+	width: 75%;
+	margin-left: 110px;
+}
+.g-c-txt{
+	margin-left: 80px;
+}
+.goods_comment{
+	position: absolute;
+	width: 80%;
+	height:auto;
+	margin-top: 0%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color:#FFFF00;
+	border-radius: 5%;
+}	
+.view_comment{
+	position: absolute;
+	width: 80%;
+	min-height: 800px;
+	height: auto;
+	margin-top: 40%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color:#00E3E3;
+	border-radius: 5%;
+}	
+.button_margin{
+	margin-right: 5%;
+}	
+.main{
+	height: 100%;
+}
+.font_margin{
+	margin-left: 20%;
+}
+.main-txt{
+	border-radius: 3px;
+	border: 0px;
+	background-color: #f5f5f5;
+}
+textarea{
+	padding: 0px;
+	border-radius: 5px;
+	border: 0px;
+	background-color: #f5f5f5;
+	width: 75%;
+	height: 150px;
+	max-width: 75%;
+	max-height: 250px;
+	min-width: 30%;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	resize : none;
+
+}
+
+
+.mid{
+	margin-top: -48px;
+	height: 640px;
+	background-color: #fff;
+}
+.messenge{
+	margin-top: 50px;
+	background-color: #f5f5f5;
+	border-radius: 5px;
+}
+.messenge2{
+	margin-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+footer{
+	width: 100%;
+	margin-top: 100%;
+    margin-bottom: 0px; 
+    background-color: #262524;
+}

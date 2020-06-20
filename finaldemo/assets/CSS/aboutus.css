@@ -1,0 +1,76 @@
+body{
+	font-weight: bolder;
+	background-repeat: no-repeat;
+	background-position: center;
+  	background-size: 100%;
+ 	background-attachment: fixed;
+ 	font-family: 'Noto Sans TC', sans-serif;
+ 	text-decoration:none;
+}
+footer{
+    width: 100%;
+    margin-top: 45%;
+    margin-bottom: 0px; 
+    background-color: #262524;
+}
+h1{
+	font-weight: bold;
+}
+.box_A{
+	 width:21%;
+     float:left;
+     margin-left:4.5%;
+
+}
+.box_B{
+	 width:21%;
+     float:left;
+     margin-left:2%;
+}
+.box_C{
+	 width:21%;
+     float:left;
+     margin-left:2%;
+}
+.box_D{
+	 width:21%;
+     float:left;
+     margin-left:2%;
+}
+fieldset{
+	background-color: #D4D4D4;
+	border:10px;
+	border-color:black;
+	border-radius: 5%;
+}
+fieldset li{
+	margin-left: 5%;
+}
+legend img{
+	width: 80px;
+	height: auto;
+	border-radius: 50%;
+}
+legend img:hover{
+	width: 120px;
+    border: 0px;
+  	height:auto;
+  	border: #000 solid 1px;
+    margin: 50px auto;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.6s;
+  	cursor: pointer;
+    transition: all 0.6s;
+}
+.dialogheader{
+	background-color: #666666;
+	font-weight: bolder;
+	color:#ffffff;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0px 0px 0px 0px; 
+}
+.dialoglocation{
+	margin-top: 200px;
+}

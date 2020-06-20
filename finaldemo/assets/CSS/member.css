@@ -1,0 +1,22 @@
+body{
+	color: #561643;
+	font-family: 'Noto Sans TC', sans-serif;
+	text-decoration:none;
+	font-weight: 300;
+}
+td{
+	padding: 10px;
+}
+.g-t2{
+	font-size: 40px;
+	font-weight: 500;
+}
+.font300{
+	font-weight: 300;
+}
+th{
+	font-weight: 300;
+}
+.as{
+	border-radius: 10px;
+}

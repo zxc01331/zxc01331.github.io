@@ -1,0 +1,167 @@
+body{
+	color: #561643;
+	font-family: 'Noto Sans TC', sans-serif;
+	text-decoration:none;
+	font-weight: 300;
+	background-color: #FFFCF2;
+	font-weight: bolder;
+}
+header li{
+	margin: 0 20px 0 30px;
+	font-weight: bolder;
+}
+.menu-b{
+	background-color: #262524;
+}
+.m-ico{
+	width: 10%;
+}
+.menu-txt{
+	display: inline-block;
+	font-size: 16px;
+	transition: all 200ms ease-in-out;
+}
+.menu-txt:hover{
+	display: inline-block;
+	font-size: 18px;
+}
+.lib{
+	color: #fff;
+	background-color: #b22222;
+	border: 0px;
+	border-radius: 10px;
+	padding: 8px 15px;
+	transition: all 200ms ease-in-out;
+}
+.lib:hover{
+	background-color: #6b0114;
+}
+.lib:pressed{
+	background-color: #8b0000;
+	border: 0px;
+}
+.logo{
+	width: 106px;
+	-webkit-filter:brightness(200%);
+}
+.img{
+	width: 40px;
+	height: 40px;
+	-webkit-filter:invert(1);
+}
+.container-1{
+  	width: 300px;
+  	vertical-align: middle;
+  	white-space: nowrap;
+  	position: relative;
+}
+#midimg{
+	width: 100%;
+}
+footer{
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 0px; 
+    background-color: #262524;
+
+}
+.f-logo{
+	-webkit-filter:invert(1);
+	width: 110px;
+	margin-top: 15px;
+}
+h1{
+	margin-top: 8px;
+}
+.pre{
+	color: #B6924E;
+	margin-top: 30px;
+}
+.war{
+	position: fixed;
+	color: white;
+	bottom: 0px;
+	width: 100%;
+	background-color: #000000;
+	margin-bottom: 0px;
+	z-index:16;
+}
+.warimg{
+	width: 2.5%;
+	vertical-align:middle;
+}
+.f-p{
+	margin-top: 10px;
+	color: #fff;
+}
+.f-tit{
+	color: #fff;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.f-txt{
+	margin-bottom: 15px;
+}
+.f-a{
+	text-decoration:none;
+	color: #B6924E;
+}
+.f-a:hover{
+	text-decoration:none;
+	color: #B6924E;
+}
+.f-icon{
+	margin-top: 70px;
+
+}
+.d-icon{
+	width: 50px;
+  	transition: all 200ms ease-in-out;
+	-webkit-filter:brightness(1000%);
+
+}
+.d-icon:hover{
+	opacity: 1;
+	-webkit-filter:brightness(1);
+}
+.d-icon2{
+	margin-left: 30px;
+	width: 50px;
+  	transition: all 200ms ease-in-out;
+	-webkit-filter:saturate(0);
+
+}
+.d-icon2:hover{
+	opacity: 1;
+	-webkit-filter:saturate(1);
+}
+.d-icon3{
+	margin-left: 43px;
+	width: 50px;
+  	transition: all 200ms ease-in-out;
+	-webkit-filter:saturate(0);
+
+}
+.d-icon3:hover{
+	opacity: 1;
+	-webkit-filter:saturate(1);
+}
+.people{
+	color: #fff;
+	text-align: center;
+}
+.carousel2{
+	margin-top: -24px;
+	margin-bottom: 30px; 
+}
+.g-i-img{
+	width: 100%;
+	transition: all 0.5s ease-out;
+}
+.g-i-img:hover{
+	box-shadow:5px 5px 10px 7px #696969;
+	width: 101%
+}
+.g-i-m{
+	margin-top: 30px;
+}

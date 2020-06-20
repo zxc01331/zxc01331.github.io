@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>King Wine Cellar - 首頁</title> <!--title-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/images/icon.ico" type="image/x-icon" / ><!--icon img-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+    <style type="text/css" media="screen">
+      @import url("assets/CSS/index.css");
+      @import url("assets/CSS/login.css");
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="menu-b">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="../index.html">
+            <img src="assets/images/logo.png" class="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent"><!--header start-->
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white menu-txt" href="pages/whiskey_index.html">威士忌</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white menu-txt" href="pages/wine_index.html">葡萄酒</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white menu-txt" href="pages/Sorghum_index.html">高粱酒</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white menu-txt" href="pages/beer_index.html">啤酒</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white menu-txt" href="pages/aboutus.html">關於我們</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white menu-txt" href="pages/only_member.html">會員專區</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="lib" type="submit">Search</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+          <li>
+            <img src="assets/images/login.png" class="img" onclick="showDialog()">
+          </li>
+          <li>
+            <a href="pages/shopping_car.html" title=""><img src="assets/images/shoppingcar.png" class="img"></a><!--header end-->
+          </li>
+            </ul>
+          </div><br/>
+        </nav>
+      </div>
+      <!--登入顯示JS始-->
+      <script>
+      function showDialog(){
+      var whitebg = document.getElementById("white-background");
+      var dlg = document.getElementById("dlgbox");
+      whitebg.style.display = "block";
+      dlg.style.display = "block";
+      var winWidth = window.innerWidth;
+      var winHeight = window.innerHeight;
+      dlg.style.left = (winWidth/2) - 480/2 + "px";
+      dlg.style.top = "150px";
+      }
+      function closeDialog(){
+              var whitebg = document.getElementById("white-background");
+              whitebg.style.display = "none";
+              var dlg = document.getElementById("dlgbox");
+              dlg.style.display="none";
+            }
+      </script><!--登入顯示JS終-->
+      <div id="white-background"><!--登入介面始-->
+      </div>
+      <div id="dlgbox">
+        <div id="dlg-header">
+          登入
+          <h3 onclick="closeDialog()" title="關閉視窗" class="close">×</h3>
+        </div>
+        <div id="dlg-body"><br/>
+          <form action="" method="post" accept-charset="utf-8">
+          帳號：<input type="text" name="id_number" value="" placeholder=""> <br/><br/>
+          密碼：<input type="password" name="password" value="" placeholder=""><br/><br/>
+        </div>
+        <div id="dlg-footer">
+          <input type="button" name="登入" value="登入">
+          <a href="pages/sign_up.html" title=""><input type="button" name="註冊" value="註冊"></a>
+        </form>
+        </div>
+      </div><!--登入介面終-->
+    </header><br/>
+
+    <div id="carouselExampleIndicators" class="carousel slide carousel2" data-ride="carousel"><!--輪播器始-->
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/images/cellar04.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/cellar05.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/cellar06.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/cellar01.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/cellar02.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/cellar03.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div><!--輪播器終-->
+    <div class="war"><!--警告標語始-->
+      <h1 align="center" >
+        <img src="assets/images/noallow.png" class="warimg">
+        禁止酒駕&emsp;&emsp;酒後不開車&emsp;&emsp;安全有保障
+        <img src="assets/images/noallow.png" class="warimg">
+      </h1> 
+    </div><!--警告標語終-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div>
+            <a href="pages/wine_06.html" title=""><img src="assets/images/index_wine.jpg" class="g-i-img"></a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div>
+            <a href="pages/Sorghum_01.html" title=""><img src="assets/images/sorghum.jpg" class="g-i-img"></a>
+          </div>
+        </div>
+      </div>
+      <div class="g-i-m">
+        <div class="row">
+        <div class="col-md-6">
+          <a href="pages/Sorghum_06.html" title=""><img src="assets/images/sorghum2.png" class="g-i-img"></a>
+        </div>
+        <div class="col-md-6">
+          <a href="pages/whiskey_05.html" title=""><img src="assets/images/whiskey.jpg" class="g-i-img"></a>
+        </div>
+      </div>
+      </div>
+    </div>
+    
+    <!--footer start-->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="assets/images/logo2.png" class="f-logo">
+            <div class="f-p">
+              King Wine Cellar在2020年正式設立網路平台，並於2020年並不會在台北陸續成立銷售門市，提供酒類與相關產品資訊和透明化的價格，不以產品來歷可靠且品質保證作為經營宗旨。
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div>
+              <div class="f-tit">
+              產品類別
+            </div>
+            <div>
+              <div class="f-txt">
+              <a href="pages/whiskey_index.html" class="f-a">威士忌</a>
+            </div>
+            <div class="f-txt">
+              <a href="pages/wine_index.html" class="f-a">葡萄酒</a>
+            </div>
+            <div class="f-txt">
+              <a href="pages/Sorghum_index.html" class="f-a">高粱酒</a>
+            </div>
+            <div class="f-txt">
+              <a href="pages/beer_index.html" class="f-a">啤酒</a>
+            </div>
+            <div class="f-txt">
+              <a href="pages/aboutus.html" class="f-a">關於我們</a>
+            </div>
+            <div class="f-txt">
+              <a href="pages/only_member.html" class="f-a">會員專區</a>
+            </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="f-tit">
+              聯絡我們
+              <div class="pre">
+                 地址：桃園市中壢區中北路200號<br>
+                 電話：03-4510000<br>
+                 傳真：03-4311234<br>
+                 工廠地址：台北市松山區敦化北路340-9號<br>
+                 金門縣金城鎮北門里民生路21號<br>    
+                </div>
+            </div>
+                <div class="f-icon">
+                  <a href="https://www.facebook.com/"><img src="assets/images/facebook2.png" class="d-icon"></a>
+                  <a href="https://www.instagram.com/"><img src="assets/images/instagram2.png" class="d-icon2"></a>
+                  <a href="mailto:KingWineCellar@gmail.com"><img src="assets/images/mail2.png" class="d-icon3"></a>
+                </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="people">
+            本網頁造訪人次：000001
+            </div>
+          </div> 
+        </div>
+      </div>
+      <br><br><br><br>
+    </footer><!--footer end-->		
+  </body>
+</html>
