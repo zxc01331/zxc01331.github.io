@@ -30,24 +30,15 @@ th{
 	margin: auto;
  	width: 50% !important; 
 }
-.container2{
-	margin-right: auto;
- 	margin-left: auto;
- 	padding-top: 0px;
-  	padding-right: 15px;
-  	padding-left: 15px;
-  	width: 100%;
-  	max-width: 1320px;  
-	
-}
+
 .container3{
 	margin-right: auto;
  	margin-left: auto;
- 	padding-top: 80px;
+ 	padding-top: 15px;
   	padding-right: 15px;
   	padding-left: 15px;
   	width: 100%;
-  	max-width: 670px;  
+  	max-width: 675px;  
 }
 .button1{
 
