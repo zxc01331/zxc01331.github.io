@@ -1,0 +1,80 @@
+*{
+	font-size: 25px;
+}
+h1.header{
+	font-size: 50px;
+	color: #708090;
+	font-weight: bold;
+	padding-top: 55px;
+	padding-bottom: 10px;
+}
+.id{
+	text-align: right;
+}
+.identity{
+	display: inline;
+}
+.identity2{
+	background-color: #C91D1D;
+	color: #FFF;
+	padding: 5px;
+	border-radius: 15px;
+	border-width:0px;
+	display: inline;
+}
+th{
+	width: 150px;
+	padding: 10px;
+}
+.table2{
+	margin: auto;
+ 	width: 50% !important; 
+}
+.container2{
+	margin-right: auto;
+ 	margin-left: auto;
+ 	padding-top: 0px;
+  	padding-right: 15px;
+  	padding-left: 15px;
+  	width: 100%;
+  	max-width: 1320px;  
+	
+}
+.container3{
+	margin-right: auto;
+ 	margin-left: auto;
+ 	padding-top: 80px;
+  	padding-right: 15px;
+  	padding-left: 15px;
+  	width: 100%;
+  	max-width: 670px;  
+}
+.button1{
+
+	color: #000;
+	background-color: #F5F5F5;
+	border-radius: 10px;
+	border-width:0px;
+	padding: 8px 15px;
+	transition: all 200ms ease-in-out;
+}
+.button1:hover{
+	background-color: #FF595E;
+	color: #FFF;
+}
+.button2{
+
+	color: #000;
+	background-color: #F5F5F5;
+	border-radius: 10px;
+	border-width:0px;
+	padding: 8px 15px;
+	transition: all 200ms ease-in-out;
+}
+.button2:hover{
+	background-color: #FF595E;
+	color: #FFF;
+}
+.drow{
+	display: inline; 
+}
